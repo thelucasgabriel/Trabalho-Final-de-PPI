@@ -1,0 +1,89 @@
+h2 {
+    text-align: center;
+}
+
+form {
+    width: 60%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 3rem;
+    border: 1px solid #cecece;
+    border-radius: 7px;
+}
+
+fieldset {
+    border: none;
+    right: 0;
+    left: 0;
+}
+
+label {
+    margin-bottom: 2px;
+    margin-top: 5px;
+    display: block;
+    font-weight: bold;
+}
+
+input:not([type="radio"]),
+textarea,
+select,
+button {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;  
+    border: 1px solid #cecece;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    background-color: #f04040;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: large;
+}
+
+button:hover {
+    background-color: #800a0a;
+}
+
+
+input:focus,
+textarea:focus,
+select:focus {
+    box-shadow: 0 0 10px gray; 
+} 
+
+
+/*
+input, textarea:invalid{
+    box-shadow: 0 0 10px red;
+}
+*/
+
+form span {
+    color: red;
+  }
+  
+
+@media screen and (max-width: 600px) {
+
+    form {
+        width: 50%;
+    }
+
+    main {
+        padding: 2px;
+    }
+}

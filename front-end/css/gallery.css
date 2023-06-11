@@ -1,0 +1,37 @@
+
+.galeria img {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 2px;
+}
+
+.galeria {
+    column-count: 4; /* divisão do conteúdo em colunas (imagens)*/
+    column-gap: 5px; /* espaço entre o conteúdo, (imagens )*/
+}
+
+#video-canal {
+    margin-top: 150px;
+    text-align: center;
+}
+
+#video-canal iframe {
+    max-width: 100%;
+    width: 600px; 
+    height: 300px;
+    margin: 0 auto; /* Centraliza o vídeo */
+    
+}
+
+
+@media all and (max-width: 600px) {
+    .galeria {
+        column-count: 2;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .galeria {
+        column-count: 1;
+    }
+}

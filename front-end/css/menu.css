@@ -1,0 +1,41 @@
+body {
+    background-color: #EFFAFD;
+  }
+  
+  nav {
+    width: 50%;
+    margin: 0;
+    padding: 2% 4%;
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin-bottom: 5px;
+    border-radius: 30px;
+    padding: 12px;
+    background-color: #0BA7EF;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #800a0a;
+    font-size: 16pt;
+    display: block;
+  }
+  
+  h1 {
+    font-size: 35pt;
+    color: #f04040; 
+  }
+  
